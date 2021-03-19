@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/board/action/ContentAction.java=UTF-8
+encoding//src/board/action/ControllerAction.java=UTF-8
+encoding//src/board/action/ListAction.java=UTF-8
+encoding//src/board/action/UpdateFormAction.java=UTF-8
+encoding//src/board/action/UpdateProAction.java=UTF-8
+encoding//src/board/action/WriteFormAction.java=UTF-8
+encoding//src/board/model/BoardDAO.java=UTF-8
+encoding//src/board/model/BoardVO.java=UTF-8

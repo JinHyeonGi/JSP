@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource 
+    	name="jdbc/myOracle"
+    	auth="Container"
+    	driverClassName="oracle.jdbc.driver.OracleDriver"
+    	type="javax.sql.DataSource"
+    	url="jdbc:oracle:thin:@localhost:1521/XEPDB1"
+    	username="mytest"
+    	password="mytest"
+    	maxTotal="8"
+    	maxIdle="8"
+    	maxWaitMillis="10000"
+    />
+    <!-- 컨테이너 권한으로 해당 DB와의 커넥션의 옵션들을 설정 후 연결 -> DataSource 형태로 반환 => 자원에 대한 구성정보를 등록 -->
+</Context>
